@@ -1,0 +1,83 @@
+/* Upload container styling */
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.file-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+}
+
+.upload-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 400px;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+.upload-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #e74c3c;
+    visibility: hidden;
+}
+
+.message.active {
+    visibility: visible;
+}
+
+.message.success {
+    color: #2ecc71;
+}
+
+.message.error {
+    color: #e74c3c;
+}
+
+/* File name display styling */
+.file-name {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: 500;
+}

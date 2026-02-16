@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+@theme {
+    --default-font-family: roboto;
+    --color-primary: #111827;
+    --color-secondary: #1F2937;
+}
